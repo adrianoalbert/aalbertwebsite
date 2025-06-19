@@ -391,7 +391,7 @@
 }
 
 .Card_timelineItem__EoRyb {
-  padding: 5px 30px;
+  padding: 5px 5px;
   position: relative;
   width: 50%;
   box-sizing: border-box;
@@ -402,27 +402,41 @@
 }
 
 .Card_timelineItem__EoRyb:nth-child(even) {
-  left: 50%;
+  left: 46%;
 }
 
 .Card_timelineDot__mCzBr {
   position: absolute;
   width: 20px;
   height: 20px;
-  right: -10px;
+  top: 15px;
   background-color: #4CAF50;
   border: 4px solid rgba(255, 255, 255, 0.2);
-  top: 15px;
   border-radius: 50%;
   z-index: 1;
 }
 
+.Card_timelineItem__EoRyb:nth-child(odd) .Card_timelineDot__mCzBr {
+  right: -10px;
+  left: auto;
+}
+
 .Card_timelineItem__EoRyb:nth-child(even) .Card_timelineDot__mCzBr {
   left: -10px;
+  right: auto;
+}
+
+.Card_timelineItem__EoRyb:nth-child(odd) .Card_timelineDate__CmPWN {
+  text-align: right;
+  padding-right: 30px;
+}
+
+.Card_timelineItem__EoRyb:nth-child(even) .Card_timelineContent__dmgnT {
+  padding-left: 40px;
 }
 
 .Card_timelineContent__dmgnT {
-  padding: 15px;
+  padding: 10px;
   background: rgba(0, 0, 0, 0.5);
   position: relative;
   border-radius: 8px;
@@ -431,9 +445,9 @@
 }
 
 .Card_timelineDate__CmPWN {
-  color: #4CAF50;
-  font-weight: bold;
-  margin-bottom: 10px;
+  font-size: 20px;
+  color: #666;
+  margin-bottom: 8px;
 }
 
 .Card_timelineCard__wh648 {
@@ -465,10 +479,6 @@
   }
   
   .Card_timelineDot__mCzBr {
-    left: 21px;
-  }
-  
-  .Card_timelineItem__EoRyb:nth-child(even) .Card_timelineDot__mCzBr {
     left: 21px;
   }
 }
@@ -1171,7 +1181,7 @@
 }
 
 .Card_timelineDate__CmPWN {
-  font-size: 0.9rem;
+  font-size: 20px;
   color: #666;
   margin-bottom: 8px;
 }
