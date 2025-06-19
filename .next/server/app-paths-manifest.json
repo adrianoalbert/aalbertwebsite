@@ -1,0 +1,8 @@
+{
+  "/publications/page": "app/publications/page.js",
+  "/courses/page": "app/courses/page.js",
+  "/projects/page": "app/projects/page.js",
+  "/certifications/page": "app/certifications/page.js",
+  "/not-found": "app/not-found.js",
+  "/page": "app/page.js"
+}
